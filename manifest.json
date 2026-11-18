@@ -1,0 +1,10 @@
+{
+    "display_name": "编写者身份替换 (Writer Identity Swap)",
+    "loading_order": 60,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "Xeltra",
+    "version": "1.0.0"
+}

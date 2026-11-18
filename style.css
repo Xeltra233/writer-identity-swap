@@ -1,0 +1,194 @@
+.wis-panel .wis-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin: 4px 0;
+}
+
+.wis-panel .wis-options {
+    gap: 8px;
+    row-gap: 4px;
+}
+
+.wis-panel .wis-options .checkbox_label {
+    flex: 0 0 auto;
+    margin: 0;
+}
+
+.wis-panel .wis-options #wis_preview {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    width: auto;
+    margin-left: auto;
+    padding: 1px 10px;
+    font-size: 0.85em;
+}
+
+.wis-panel .wis-toggle {
+    margin: 2px 0 6px;
+}
+
+.wis-panel .wis-label {
+    color: var(--SmartThemeEmColor, #999);
+    font-size: 0.9em;
+    white-space: nowrap;
+}
+
+.wis-panel .wis-value {
+    font-weight: 600;
+    word-break: break-all;
+}
+
+.wis-panel .wis-muted {
+    color: var(--SmartThemeEmColor, #999);
+    font-size: 0.85em;
+    line-height: 1.5;
+}
+
+.wis-panel .wis-block {
+    margin: 6px 0;
+}
+
+.wis-panel .wis-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 4px;
+}
+
+.wis-panel .wis-chip {
+    border: 1px solid var(--SmartThemeBorderColor, #444);
+    background: var(--black30a, rgba(0, 0, 0, 0.3));
+    color: var(--SmartThemeBodyColor, #eee);
+    border-radius: 10px;
+    padding: 2px 8px;
+    font-size: 0.85em;
+    cursor: pointer;
+    line-height: 1.6;
+}
+
+.wis-panel .wis-chip:hover {
+    border-color: var(--SmartThemeQuoteColor, #7bd);
+}
+
+.wis-panel .wis-alias-input {
+    margin-top: 6px;
+    width: 100%;
+    font-size: 0.85em;
+}
+
+.wis-panel .wis-alias[aria-pressed='true'] {
+    border-color: var(--SmartThemeQuoteColor, #7bd);
+    background: var(--SmartThemeQuoteColor, #7bd);
+    color: var(--SmartThemeBlurTintColor, #000);
+}
+
+.wis-panel .wis-chip-warn {
+    border-color: #c96;
+    color: #eab;
+}
+
+.wis-panel .wis-empty {
+    color: var(--SmartThemeEmColor, #999);
+    font-size: 0.85em;
+}
+
+.wis-panel .wis-grid {
+    display: flex;
+    gap: 8px;
+    margin: 6px 0;
+}
+
+.wis-panel .wis-field {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1 1 45%;
+    min-width: 120px;
+}
+
+.wis-panel .wis-field span {
+    color: var(--SmartThemeEmColor, #999);
+    font-size: 0.85em;
+}
+
+.wis-panel .wis-issues .wis-issue {
+    font-size: 0.82em;
+    line-height: 1.5;
+    padding: 1px 0;
+}
+
+.wis-panel .wis-issue-error {
+    color: #e07b7b;
+}
+
+.wis-panel .wis-issue-warning {
+    color: #e0b060;
+}
+
+.wis-panel .wis-issue-info {
+    color: var(--SmartThemeEmColor, #999);
+}
+
+.wis-panel .wis-badge {
+    font-size: 0.75em;
+    border-radius: 8px;
+    padding: 1px 8px;
+    margin-left: 6px;
+    border: 1px solid var(--SmartThemeBorderColor, #444);
+}
+
+.wis-panel .wis-badge-ok {
+    color: #7bd;
+    border-color: #7bd;
+}
+
+.wis-panel .wis-badge-idle {
+    color: var(--SmartThemeEmColor, #999);
+}
+
+.wis-panel .wis-icon-button {
+    padding: 2px 8px;
+}
+
+.wis-panel .wis-samples {
+    max-height: 260px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 4px;
+}
+
+.wis-panel .wis-sample {
+    border-left: 2px solid var(--SmartThemeBorderColor, #444);
+    padding-left: 6px;
+    font-size: 0.82em;
+    line-height: 1.5;
+}
+
+.wis-panel .wis-sample-where {
+    color: var(--SmartThemeEmColor, #999);
+    display: block;
+    font-size: 0.9em;
+}
+
+.wis-panel .wis-sample-before {
+    color: #d99;
+    word-break: break-all;
+}
+
+.wis-panel .wis-sample-after {
+    color: #9d9;
+    word-break: break-all;
+}
+
+.wis-panel .wis-preview-head {
+    font-size: 0.85em;
+    font-weight: 600;
+}
+
+.wis-panel .wis-details {
+    margin-top: 6px;
+}
